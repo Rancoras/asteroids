@@ -9,5 +9,9 @@ wheels/
 # Game logging
 game_state.jsonl
 
+# Claude Code
+CLAUDE.md
+.claude/
+
 # Virtual environments
 .venv
