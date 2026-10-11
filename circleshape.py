@@ -2,6 +2,7 @@ import pygame
 
 
 # Base class for game objects
+# Add collision next
 class CircleShape(pygame.sprite.Sprite):
     containers: tuple[pygame.sprite.Group, ...]
 
@@ -15,6 +16,7 @@ class CircleShape(pygame.sprite.Sprite):
         self.position: pygame.Vector2 = pygame.Vector2(x, y)
         self.velocity = pygame.Vector2(0, 0)
         self.radius = radius
+
 
     def draw(self, screen: pygame.Surface) -> None:
         # must override
