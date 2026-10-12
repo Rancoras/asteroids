@@ -8,6 +8,7 @@ wheels/
 
 # Game logging
 game_state.jsonl
+game_events.jsonl
 
 # Claude Code
 CLAUDE.md
